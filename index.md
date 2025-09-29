@@ -1,38 +1,52 @@
 ---
 layout: default
-title: Sample Portfolio
+title: Home
 ---
 
-# Welcome to My Sample Portfolio
+# Welcome to ENG 6800 Sample Portfolio
 
-This site demonstrates some basic **Markdown** and HTML features you can use in your GitHub Pages site.
+This is a **demo page** showing some common GitHub Pages / Jekyll markup features.  
+You can use Markdown to add:
 
----
+## Headings
 
-## Headings and Text
-You can write regular text, or emphasize things with *italics* and **bold**.  
-You can also create blockquotes:
+### Subheadings
 
-> "Digital writing is about *making* as much as it is about writing."  
+#### Smaller subheadings
 
----
+## Text Formatting
+- *Italic* text
+- **Bold** text
+- `Inline code`
+
+> Blockquotes are useful for highlighting quotations or side notes.
 
 ## Lists
-- Unordered list item
-- Another item
-  - Nested sub-item
 
-1. Ordered list item
+**Ordered list**
+1. First item
 2. Second item
 3. Third item
 
+**Unordered list**
+- Bullet one
+- Bullet two
+- Bullet three
+
+## Links
+Here’s a link to [UCF’s website](https://www.ucf.edu/).
+
+## Tables
+
+| Column A | Column B |
+|----------|----------|
+| Value 1  | Value 2  |
+| Value 3  | Value 4  |
+
+## Image Example
+
+Below is a sample image embedded using Markdown:
+
+![Sample graphic showing ENG6800](assets/images/sample-image.png)
+
 ---
-
-## Code Blocks
-Inline code looks like this: `print("Hello, world!")`.
-
-Fenced code blocks work too:
-
-```python
-def greet(name):
-    return f"Hello, {name}!"
